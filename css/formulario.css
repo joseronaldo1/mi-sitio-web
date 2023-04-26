@@ -1,0 +1,49 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+.content-box{
+    border: 1px;
+    width: 600px;
+    margin-top: 80px;
+
+}
+form{
+    width: 100%;
+    padding: 20px 40px;
+}
+.form-title{
+    height: 88px;
+    color: white;
+    background-color: rgb(240, 0, 0);
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.7em;
+    font-weight: 900;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+select{
+    cursor: pointer;
+    font-size: 1.2em;
+}
+label {
+    margin-top: 20px;
+    font-weight: 900;
+}
+input[type="submit"] {
+    margin-top: 20px;
+    width: 80px;
+    margin-left: 20px;
+    background-color: dodgerblue;
+    line-height: 55px;
+    color: white;
+    font-size: 1.3em;
+    
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formularios.css">
+</head>
+<body>
+    <div class="main-box">
+        <div class="content-box">
+            <div class="form-title">
+                <span>Avianca - tiquetes</span>
+            </div>
+            <div class="form-box">
+                <form>
+                    <label>ingrese su numero de documento</label>
+                    <input type="text">
+                    <label>ingrese el tipo de documento</label>
+                    <select name="tipo de documento">
+                        <option value="cc">cedula de ciudadania</option>
+                        <option value="ti">targeta de identidad</option>
+                        <option value="rc">registro civil</option>
+                        <option value="cce">cedula de extrangria</option>
+                    </select>
+                    <label>por favor selecione la clase</label>
+                    <input type="radio" name="clase de vuelo">primera clase
+                    <input type="radio" name="clase de vuelo">businnes class
+                    <input type="radio" name="clase de vuelo">clase turista
+                    <label>por favor selecion el dia para visualizar</label>
+                    <input type="checkbox" name="disponibilidad" value="19/04/2023">miercoles 19 de abril del 2023
+                    <input type="checkbox" name="disponibilidad" value="20/04/2023">jueves 20 de abril del 2023
+                    <input type="checkbox" name="disponibilidad" value="21/04/2023">viernes 21 de abril del 2023
+                    <input type="checkbox" name="disponibilidad" value="22/04/2023">sabado 22 de abril del 2023
+                    <input type="submit"value="enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

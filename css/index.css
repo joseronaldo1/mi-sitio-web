@@ -1,0 +1,19 @@
+body{
+    background-image: url("C:/joseronaldo/img/depositphotos.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center
+    ;
+}
+img{
+    display: flex;
+    margin-left: 480px;
+    margin: 0 auto;
+}
