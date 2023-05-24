@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: ;
+}
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 198, 206);
+
+
+}
+.contenedor1{
+    text-align: center;
+    background-color: rgb(235, 236, 248);
+    width: 60%;
+}

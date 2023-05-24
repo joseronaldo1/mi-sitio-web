@@ -27,14 +27,25 @@
     .main-menu-block{
         display: block;
         padding: 30px;
+        width: 100%;
         background-color: rgb(146, 142, 137);
         height: 350px;
+        position: fixed;
+        transition: all 1s;
+        
     }
     .main-menu{
         display: none;
+        position: fixed;
+        left: -100%;
+        height: 240px;
+        transition: all 1s;
+        text-align: center;
+        margin-top: 22px;
     }
     .primero-style{
         display: block;
+        text-align: center;
     }
     .hamburguer-menu {
         display: inline-block;
