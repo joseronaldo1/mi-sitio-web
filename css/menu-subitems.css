@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(236, 227, 227);
+}
+
+nav {
+    font-size: 1.3rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul {
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    position: absolute;
+    left: -10;
+    background-color:rgb(211, 27, 27) ;
+}
+
+
+
+
+
+
+/* primer nivel */
+.menu-style {
+   margin-left: 10px;
+   margin-right: 10px;
+
+
+}
+nav > ul > li {
+    display: inline-block;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+
+   
+}
+nav > ul > li:hover {
+    background-color: rgb(231, 79, 79);
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 246, 246);
+}
+ul li{
+    position: relative;
+}
+/* segundo nivel */
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li{
+max-height: 500px;
+overflow: visible;
+text-align: center;
+border-right: 1px solid rgb(255, 255, 255);
+border-bottom:1px solid rgb(255, 255, 255) ;
+border-top:1px solid rgb(240, 234, 234) ;
+}
+nav li > ul > li:hover{
+    background-color: rgb(231, 79, 79) ;
+    cursor: pointer;
+}
+/* Tercer nivel */
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
