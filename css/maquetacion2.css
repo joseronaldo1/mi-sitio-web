@@ -4,6 +4,7 @@
   }
   body{
     display: grid;
+    background-color: #666;
     width: 100%;
     grid-template: "empty-let     main-page                empty-right" 100vh/
                  minmax(50px,1fr)       minmax(900px,1200px)       minmax(50px,1fr)             ;
@@ -21,7 +22,7 @@
   .logo{
     border-radius: 15px;
     grid-area: logo;
-    background-image: url("../img/LOG.jpg");
+    background-image: url("/joseR/img/flat\,750x\,075\,f-pad\,750x1000\,f8f8f899.jpg");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +32,7 @@
     grid-area: main-menu ;
     display: none;
     width: 100%;
-    background-image: url(../img/menu.jpg); 
+    background-image: url(/joseR/img/logo\ snoop\ dogg.png); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +56,7 @@
   }
   .main-img{
     grid-area: main-img ;
-    background-image: url("../img/pexels-eberhard-grossgasteiger-1367192.jpg");
+    background-image: url("/joseR/img/pngtree-snoop-dogg-new-animated-wallpaper-image_2937124.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -87,20 +88,20 @@
   .style-tex-img{
     text-align: center;
     font-size: 1.2em;
-    color:  rgb(64,64,64.9);
+    color:  rgb(255, 255, 255);
     font-family: verdana, sans-serif;
     font-weight: 2em;
     text-align: justify;
   }
   .img-1{
     width: 100%;
-    background-image: url(../img/img1.jpg); /* este es sin aumentp vista pc */
+    background-image: url(/joseR/img/mp\,504x516\,gloss\,f8f8f8\,t-pad\,600x600\,f8f8f8.u3.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .img-2{
-    background-image: url(../img/pexels-matteo-badini-4064432.jpg); /* este es sin aumentp vista pc */
+    background-image: url(/joseR/img/a9cab7e6994ae86cd732fae53197e713.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +109,7 @@
   .img-3{
     
     width: 100%;
-    background-image: url(../img/pexels-gianluca-grisenti-4215113.jpg); /* este es sin aumentp vista pc */
+    background-image: url(/joseR/img/MV5BMjE2OTUwNTk4NF5BMl5BanBnXkFtZTcwMjMwOTk0NA@@._V1_FMjpg_UX1000_.jpg); /* este es sin aumentp vista pc */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +117,7 @@
   .img-4{
     
     width: 100%;
-    background-image: url(../img/andres.jpg); /* este es sin aumentp vista pc */
+    background-image: url(/joseR/img/000266422W.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,7 +126,7 @@
   .img-5{
     
     width: 100%;
-    background-image: url(../img/pexels-stephan-seeber-1261728.jpg); /* este es sin aumentp vista pc */
+    background-image: url(/joseR/img/snoop-dogg-presenta-nueva-musica-h-1280x720.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +135,7 @@
   .img-6{
     
     width: 100%;
-    background-image: url(../img/pexels-photo-531321.jpeg); /* este es sin aumentp vista pc */
+    background-image: url(/joseR/img/snoop_dogg_photo_by_estevan_oriol_archive_photos_getty_455616412.jpg); /* este es sin aumentp vista pc */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
